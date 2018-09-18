@@ -9,6 +9,22 @@
             target="_blank"><i class="fa fa-github fa-2x"></i></a>
     </li>
     {% endif %}
+    
+    {% if site.social.kaggle %}
+    <li>
+        <a title="{{ site.social.kaggle }} on Kaggle"
+            href="https://kaggle.com/{{ site.social.kaggle }}"
+            target="_blank"><i class="fa fa-kaggle fa-2x"></i></a>
+    </li>
+    {% endif %}
+    
+    {% if site.social.hackerrank %}
+    <li>
+        <a title="{{ site.social.hackerrank }} on HackerRank"
+            href="https://hackerrank.com/{{ site.social.hackerrank }}"
+            target="_blank"><i class="fa fa-hackerrank fa-2x"></i></a>
+    </li>
+    {% endif %}
 
     {% if site.social.stackoverflow %}
     <li>
@@ -26,14 +42,13 @@
     </li>
     {% endif %}
 
-    {% if site.social.codepen %}
+<!--     {% if site.social.codepen %}
     <li>
         <a title="{{ site.social.codepen }} on CodePen"
             href="http://codepen.io/{{ site.social.codepen }}"
             target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
     </li>
-    {% endif %}
-
+    {% endif %} -->
 
     {% if site.social.instagram %}
     <li>
@@ -43,14 +58,13 @@
     </li>
     {% endif %}
 
-
-    {% if site.social.lastfm %}
+<!--     {% if site.social.lastfm %}
     <li>
         <a title="{{ site.social.lastfm }} on LastFm"
             href="http://lastfm.com/user/{{ site.social.lastfm }}"
             target="_blank"><i class="fa fa-lastfm fa-2x"></i></a>
     </li>
-    {% endif %}
+    {% endif %} -->
 
     {% if site.social.rss %}
     <li>

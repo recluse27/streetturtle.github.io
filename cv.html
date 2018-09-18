@@ -22,7 +22,9 @@
   <link href="{{site.url}}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="{{site.url}}/css/cv1.css" rel="stylesheet">
   <link href="{{site.url}}/css/flags/flags.css" rel="stylesheet">
-
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" media="all"/>
   <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
 
@@ -44,9 +46,9 @@
 
 <body>
 <!-- Button to download pdf version of CV -->
-<!--<div id="pdf-button">-->
-    <!--<i class="fa fa-file-pdf-o" aria-hidden="true"></i>-->
-<!--</div>-->
+<div id="pdf-button">
+    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+</div>
 
 <div class="container">
   <div class="row header">
@@ -57,33 +59,36 @@
 
     <div class="col-xs-3">
       <ul class="list-unstyled">
-        <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
+        <li><i class="fas fa-map-marker-alt"></i> {{site.data.cv.person.location}}</li>
 
         {% if site.data.cv.person.citizenship %}
-        <li><i class="fa fa-flag-o"></i> {{site.data.cv.person.citizenship}}</li>
+        <li><i class="far fa-flag"></i> {{site.data.cv.person.citizenship}}</li>
         {% endif %}
 
-        <li><i class="fa fa-comments-o"></i> {{site.data.cv.person.spokenLanguages}}</li>
+        <li><i class="far fa-comments"></i> {{site.data.cv.person.spokenLanguages}}</li>
 
-        <li><i class="fa fa-envelope-o"></i> <a href="mailto: {{ site.data.cv.person.email }}">{{
+        <li><i class="far fa-envelope"></i> <a href="mailto: {{ site.data.cv.person.email }}">{{
           site.data.cv.person.email }}</a></li>
 
         {% if site.data.cv.person.site %}
-        <li><i class="fa fa-laptop"></i> <a href="{{site.data.cv.person.site}}">pavelmakhov.com</a></li>
+        <li><i class="fas fa-laptop"></i> <a href="{{site.data.cv.person.site}}">pavelmakhov.com</a></li>
         {% endif %}
 
         {% if site.data.cv.person.phone %}
-        <li><i class="fa fa-phone"></i> {{site.data.cv.person.phone}}</li>
+        <li><i class="fas fa-phone"></i> {{site.data.cv.person.phone}}</li>
         {% endif %}
 
         {% if site.data.cv.person.linkedin %}
-        <li><i class="fa fa-linkedin"></i>
+        <li><i class="fab fa-linkedin-in"></i>
           <a href="https://www.linkedin.com/in{{site.data.cv.person.linkedin}}">linkedin.com/in/streetturtle</a></li>
         {% endif %}
-
-        <li><i class="fa fa-github"></i>
+        <li><i class="fab fa-github"></i>
           <a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></li>
-        <li><i class="fa fa-stack-overflow"></i>
+        <li><i class="fab fa-kaggle"></i>
+          <a href="https://kaggle.com{{site.data.cv.person.kaggle}}">{{site.data.cv.person.kaggle}}</a></li>
+        <li><i class="fab fa-hackerrank"></i>
+          <a href="https://hackerrank.com{{site.data.cv.person.hackerrank}}">{{site.data.cv.person.hackerrank}}</a></li>
+        <li><i class="fab fa-stack-overflow"></i>
           <a href="http://stackoverflow.com/users/1252056{{site.data.cv.person.stackoverflow}}">
             {{site.data.cv.person.stackoverflow}}</a></li>
       </ul>
@@ -147,7 +152,6 @@
     </div>
   </div>
 
-
   <div class="row section">
     <div class="col-xs-3">
       <h2>Technical skills</h2>
@@ -155,7 +159,6 @@
     <div class="col-xs-9">
       <div class="row">
         <div class="col-xs-4">
-
           <h4 class="techSkillHeader"><i class="fa fa-terminal"></i> Backend</h4>
           {% for item in site.data.cv.technicalSkills.backend %} {{item.name}}
           <div class="progress">
@@ -182,7 +185,6 @@
               </div>
               {% endfor %}
           </div>
-
       </div>
       <div class="competencies">
         <h4><i class="fa fa-male"></i> Key competencies:</h4>
@@ -191,7 +193,6 @@
           <li>{{item.tr}}</li>
           {% endfor %}
         </ul>
-
       </div>
     </div>
   </div>
@@ -205,9 +206,9 @@
         <div class="col-xs-4">
           <h4>
             {% if item.type == 'github' %}
-            <i class="fa fa-github"></i>
+            <i class="fab fa-github"></i>
             {% elsif item.type == 'site' %}
-            <i class="fa fa-globe"></i>
+            <i class="fas fa-globe"></i>
             {% endif %}
             <a href="{{item.link}}">{{item.name}}</a>
           </h4>
@@ -252,7 +253,7 @@
       {% endfor %}
     </div>
   </div>
-  </div>
+  <!-- </div> -->
 
   <div class="row section">
     <div class="col-xs-3"><h2>Education</h2></div>
@@ -267,7 +268,7 @@
       {% endfor %}
     </div>
   </div>
-
+</div>
 </body>
 
 </html>

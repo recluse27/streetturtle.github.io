@@ -1,84 +1,98 @@
 person:
-  name: Pavel Makhov
-  profession: Software Developer
-  location: Montréal, Canada
-  email: pavel.makhov@outlook.com
-  site: http://pavelmakhov.com
+  name: Vitalii Lazuka
+  profession: Software Engineer and Data Scientist
+  location: Fremont, CA, USA
+  email: lazukav@gmail.com
+  site: http://github.com/recluse27
   linkedin: /streetturtle
   github: /streetturtle
+  kaggle: /streetturtle
+  hackerrank: /streetturtle
   stackoverflow: /streetturtle
-  spokenLanguages: English / French / Russian
+  spokenLanguages: English / German / Ukrainian / Russian
 career:
- - position: Backend Developer
-   company: TouchTunes
-   company-site: http://www.touchtunes.com/
-   logo: touchtunes.png
-   location: Montreal, Canada
-   country: ca
-   dates: 05.2018 - current
-   summary: Java Backend Development.
-
- - position: Software Developer
-   company: Intelerad
-   company-site: https://www.intelerad.com/
-   logo: intelerad.png
-   location: Montreal, Canada
-   country: ca
-   dates: 01.2018 - 05.2018
-   summary: Development of the PACS - Picture Archiving and Communication System.
-
- - position: Java Developer / Consultant
-   company: Savoir-Faire Linux
-   company-site: https://savoirfairelinux.com
-   logo: sflx.png
-   location: Montreal, Canada
-   country: ca
-   dates: 08.2016 - 12.2017
+ - position: Full-stack Developer
+   company: Friendly Food
+   company-site: http://www.facebook.com/FriendlyFoodBot
+   logo: foodbot.jpg
+   location: Kyiv, Ukraine
+   country: ua
+   dates: 11.2017 - 08.2018
+   summary: Python, Flask, JS, VueJS, ReactJS, MongoBD, PostgreSQL
    accomplishments:
-    - accomplishment: Took part in development of high performance highly available Music REST API.
-    - accomplishment: Development of the real-time data processing application based on Apache Mahout and Apache Kafka.
-    - accomplishment: Development of Proof of Concept WebRTC Liferay portlet, Content Classifier portlet (based on <a href="https://deeplearning4j.org/">DL4J</a> library).
-    - accomplishment: Took part in building data pipeline for a ML project.
+    - accomplishment: Web platform development (backend – Django, Flask; frontend – JS, VueJS, ReactJS)
+    - accomplishment: Data manipulation (PostgreSQL, MongoDB)
+    - accomplishment: Facebook messenger bot development 
 
- - position: Java/Alfresco Developer
-   company: CERN
-   company-site: https://home.cern/
-   logo: cern.jpg
-   location: Geneva, Switzerland
-   country: ch
-   dates: 09.2014 - 05.2016
-   summary: I took part in the development of business critical eFiles document management system based on open source solution - Alfresco – the market leader in records management. As an Alfresco developer I worked on extending and customizing Alfresco. Through this project, I have learned business processes of other teams, as we constantly work with CERN HR team, developing the way to link their needs with technical abilities of the software.
+ - position: Junior REACH Data Analyst
+   company: Acted
+   company-site: https://www.acted.org/
+   logo: acted.jpg
+   location: Kyiv, Ukraine
+   country: ua
+   dates: 08.2017 - 02.2018
+   summary: Excel, SPSS, Python, Django, Tableau, JS
    accomplishments:
-    - accomplishment: Customization of server-side and client-side parts of Alfresco in correspondence to the organisation's internal processes and requirements.
-    - accomplishment: Integrating Alfresco with AppDynamics - application performance management system.
-    - accomplishment: Development of the web application for 2nd/3rd support of eFiles. Technology stack is Spring Boot, AngularJS, Spring Data Rest.
-    - accomplishment: Development of the custom user interface of Alfresco document library page based on Polymer.
+    - accomplishment: Web platform for visualization development (backend – Django; frontend – JS, D3JS)
+    - accomplishment: Data mining (R, Python, Excel)
+    - accomplishment: Data analysis (SPSS, R, Python)
+    - accomplishment: Data visualization (Tableua, Qlik, Python, JS, D3JS)
 
- - position: Software Developer
-   company: CERN
-   company-site: https://home.cern/
-   logo: cern.jpg
-   location: Geneva, Switzerland
-   country: ch
-   dates: 10.2012 – 09.2014
-   summary: I worked in GS-AIS-EB (Electronic Business) section for EDH (Electronic Document Handling) system, which covers many life aspects at CERN (such as absences, HR & Training, purchasing, logistics and safety). In this role I was developing EDH documents and improving functionality of existing ones. One of the biggest and the most interesting project during this period was the development of CERN Hotel booking application.
+ - position: Freelance
+   company: weblancer.net, studwork.org, globalfreelance.ua
+   company-site: https://www.weblancer.net
+   logo: weblancer.jpg
+   location: Kyiv, Ukraine
+   country: ua
+   dates: 01.2016 - 09.2017
+   summary: C++, Python, Java, JS
    accomplishments:
-    - accomplishment: Extending functionality of CERN Hotel web booking application (hostel.cern.ch). Main feature developed is the possibility to create a Waiting-List reservations.
-    - accomplishment: Migrating existing business processes from BPEL to BPMN (Activiti).
-    - accomplishment: 3rd Line support
+    - accomplishment: Software development (Python, C/C++, Java)
+    - accomplishment: Data Science (Python)
+    # - accomplishment: Took part in development of high performance highly available Music REST API.
+    # - accomplishment: Development of the real-time data processing application based on Apache Mahout and Apache Kafka.
+    # - accomplishment: Development of Proof of Concept WebRTC Liferay portlet, Content Classifier portlet (based on <a href="https://deeplearning4j.org/">DL4J</a> library).
+    # - accomplishment: Took part in building data pipeline for a ML project.
 
- - position: Software Developer
-   company: Probusinessbank
-   logo: life.jpg
-   location: Moscow, Russia
-   country: ru
-   dates: 10.2011 – 07.2012
-   summary: While finishing the study at University I got a job at Probusinessbank in Moscow, one of TOP-50 banks in Russia. During my time there, I was responsible for several activities.
-   accomplishments:
-    - accomplishment: Development of web-services communicating with external systems such as credit agencies, payment systems.
-    - accomplishment: Extending of the functionality of Mobile banking system, server-side part, which was the theme for my diploma project.
-    - accomplishment: Development of web-applications for internal bank needs.
-    - accomplishment: Development of Web-Service in order to generate PDF reports using XSL-FO transformations.
+ # - position: Java/Alfresco Developer
+ #   company: CERN
+ #   company-site: https://home.cern/
+ #   logo: cern.jpg
+ #   location: Geneva, Switzerland
+ #   country: ch
+ #   dates: 09.2014 - 05.2016
+ #   summary: I took part in the development of business critical eFiles document management system based on open source solution - Alfresco – the market leader in records management. As an Alfresco developer I worked on extending and customizing Alfresco. Through this project, I have learned business processes of other teams, as we constantly work with CERN HR team, developing the way to link their needs with technical abilities of the software.
+ #   accomplishments:
+ #    - accomplishment: Customization of server-side and client-side parts of Alfresco in correspondence to the organisation's internal processes and requirements.
+ #    - accomplishment: Integrating Alfresco with AppDynamics - application performance management system.
+ #    - accomplishment: Development of the web application for 2nd/3rd support of eFiles. Technology stack is Spring Boot, AngularJS, Spring Data Rest.
+ #    - accomplishment: Development of the custom user interface of Alfresco document library page based on Polymer.
+
+ # - position: Software Developer
+ #   company: CERN
+ #   company-site: https://home.cern/
+ #   logo: cern.jpg
+ #   location: Geneva, Switzerland
+ #   country: ch
+ #   dates: 10.2012 – 09.2014
+ #   summary: I worked in GS-AIS-EB (Electronic Business) section for EDH (Electronic Document Handling) system, which covers many life aspects at CERN (such as absences, HR & Training, purchasing, logistics and safety). In this role I was developing EDH documents and improving functionality of existing ones. One of the biggest and the most interesting project during this period was the development of CERN Hotel booking application.
+ #   accomplishments:
+ #    - accomplishment: Extending functionality of CERN Hotel web booking application (hostel.cern.ch). Main feature developed is the possibility to create a Waiting-List reservations.
+ #    - accomplishment: Migrating existing business processes from BPEL to BPMN (Activiti).
+ #    - accomplishment: 3rd Line support
+
+ # - position: Software Developer
+ #   company: Probusinessbank
+ #   logo: life.jpg
+ #   location: Moscow, Russia
+ #   country: ru
+ #   dates: 10.2011 – 07.2012
+ #   summary: While finishing the study at University I got a job at Probusinessbank in Moscow, one of TOP-50 banks in Russia. During my time there, I was responsible for several activities.
+ #   accomplishments:
+ #    - accomplishment: Development of web-services communicating with external systems such as credit agencies, payment systems.
+ #    - accomplishment: Extending of the functionality of Mobile banking system, server-side part, which was the theme for my diploma project.
+ #    - accomplishment: Development of web-applications for internal bank needs.
+ #    - accomplishment: Development of Web-Service in order to generate PDF reports using XSL-FO transformations.
 
 technicalSkills:
   list:
@@ -115,71 +129,78 @@ sideProjects:
 #    type: site
 #    langs: HTML/CSS/Bootstrap
 
-  - name: Awesome WM widgets
-    description: Collection of widgets for the Awesome Window Manager for Linux.
-    link: https://github.com/streetturtle/AwesomeWM
+  - name: Defense methods from adversarial attacks for face recognition
+    description: Bachelor Diploma work. Research of different adversarial attacks for face recognition system and defense methods  
+    link: https://github.com/recluse27/diplo
     type: github
-    langs: Lua
-    stars: 186
+    langs: Python
 
-  - name: PDF-element
-    description: Web component built with Polymer which allows to render PDF files.
-    link: http://github.com/streetturtle/pdf-element/
+  - name: Flash-ball-back
+    description: JavaScript game for 2017 github gameoff competition
+    link: https://github.com/FunCodingAssociation/flash-ball-back
     type: github
-    langs: Polymer
-    stars: 27
+    langs: JavaScript
 
-  - name: Jekyll Clean Dark
-    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
-    link: https://github.com/streetturtle/jekyll-clean-dark
+  - name: Botnet Detection Using Machine Learning
+    description: Applying machine learning technics for botnet detection
+    link: https://github.com/recluse27/MyProjects/blob/master/coursework_final.ipynb
     type: github
-    langs: Jekyll
-    stars: 112
+    langs: Python
 
-  - name: Jekyll CV Crafter
-    description: To be able to easy update/view/print my CV I created jekyll powered CV generator.
-    link: https://github.com/streetturtle/jekyll-cv-crafter
+  - name: Hacking horse
+    description: JavaScript game for 2016 github gameoff competition
+    link: https://github.com/FunCodingAssociation/game-off-2016
     type: github
-    langs: Jekyll
-    stars: 61
+    langs: JavaScript
 
-  - name: Learn Foreign Numbers
-    description: Progressive Web App based on Google's <a href="https://www.polymer-project.org/">Polymer Project</a>. The aim of this app is to learn how to write numbers in foreign language. Currently supported languages are French, Spanish, Portuguese, Italian and Vietnamese.
-    link: https://learn-foreign-numbers.firebaseapp.com/
-    type: site
-    langs: Polymer
+  - name: OLX.ua web scrawler
+    description: Web scrawler of ukraininian version of OLX
+    link: https://github.com/recluse27/MyProjects/tree/master/Scraping
+    type: github
+    langs: Python, BeautifulSoup
 
+  - name: Pentagram
+    description: Photo gallery web application
+    link: https://github.com/recluse27/MyProjects/tree/master/Photogram%20Python%2BDjango/Test
+    type: github
+    langs: Python, Django
+
+  - name: BookRWay
+    description: Railway booking system
+    link: https://github.com/recluse27/MyProjects/tree/master/RailwayStation%20App%20C%2B%2B
+    type: github
+    langs: C++ 
 
 certifications:
-  - name: FP Principles in Scala
+  - name: Deep Learning Specialization by Andrew Ng
     issuer: Coursera
-    date: July 2016
-    link: https://www.coursera.org/account/accomplishments/verify/ZBYZ6J458R9Z
-    badge: coursera_cert.png
-  - name: Data Science Foundations
-    issuer: IBM (Big Data University)
+    date: 2018
+    link: https://www.coursera.org/specializations/deep-learning
+    badge: deeplearning.jpg
+  - name: Machine Learning and Data Analysis by MIPT and Yandex
+    issuer: Coursera
+    date: 2017
+    link: https://www.coursera.org/specializations/machine-learning-data-analysis
+    badge: coursera.png
+  - name: Introduction to Business Analytics and AI
+    issuer: IBM Canada
     date: December 2016
-    link: https://www.youracclaim.com/badges/d591811c-74fc-414f-a360-d24838c257dd
-    badge: data_sci_found_cert.png
-  - name: Hadoop Programming
-    issuer: IBM (Big Data University)
-    date: December 2016
-    link: https://www.youracclaim.com/badges/d6b2f959-1029-4e89-88f0-117c0c130fc4
-    badge: hadoop_cert.png
-  - name: Scala Programming for Data Science
-    issuer: IBM (Big Data University)
-    date: December 2016
-    link: https://www.youracclaim.com/badges/c8a35db4-61ab-4365-ad57-bcf973696bc6
-    badge: scala_cert.png
-  - name: Spark
-    issuer: IBM (Big Data University)
-    date: January 2017
-    link: https://www.youracclaim.com/badges/c2b8ce85-70ec-446d-8b59-702459cb1849
-    badge: spark-cert.png
+    link: http://data-science.com.ua/courses/introduction-data-science-analytics-ai/
+    badge: ibm.png
+  - name: Basic Quality Assurance Manual course
+    issuer: Bionic University and Kyiv Mohyla Academy, Kyiv, Ukraine
+    date: May 2016
+    link: http://school.bionic-university.com/en/programs/QA_Manual/
+    badge: bionic.png
 
 education:
-  - name: National Research University of Electronic Technology
-    degree: Master of Computer Science
-    location: Moscow, Russia
-    dates: 2007 – 2012
-    link: https://eng.miet.ru/
+  - name: 42 Silicon Valley
+    degree: The 42 Program
+    location: Fremont, CA, USA
+    dates: 2018
+    link: https://www.42.us.org
+  - name: National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"
+    degree: Bachelor of Information and Communication Systems Security
+    location: Kyiv, Ukraine
+    dates: 2014 – 2018
+    link: https://kpi.ua

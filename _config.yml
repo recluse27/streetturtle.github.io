@@ -1,9 +1,9 @@
 # Jekyll configuration
 
-name: Pavel Makhov
-description: Software Developer
+name: Vitalii Lazuka
+description: Software Developer and Data Scientist
 
-url: https://streetturtle.github.io
+url: https://streetturtle.github.io/cv
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
@@ -11,19 +11,21 @@ baseurl:
 
 social:
   github: streetturtle
+  kaggle: streetturtle
+  hackerrank: streetturtle
   stackoverflow: streetturtle
   linkedin: streetturtle
-  codepen: streetturtle
-  instagram: streetturtle
-  lastfm: streetturtle
+  # codepen: streetturtle
+  # instagram: streetturtle
+  # lastfm: streetturtle
   rss: feed.xml
 
 share:
   facebook: true
-  twitter: true
-  gplus: true
+  twitter: false
+  gplus: false
   linkedin: true
-  pinterest:
+  pinterest: false
   email: true
 
 collections:
@@ -31,15 +33,15 @@ collections:
     output: true
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-57641651-1
+# google_analytics_key: UA-57641651-1
 # Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
-yandex_metrika: true
+# yandex_metrika: true
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: streetturtle
-comments: true
+comments: false
 
 permalink: /:year/:month/:title
 gems: [jekyll-paginate]
